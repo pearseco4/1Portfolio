@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5em;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family:'Times New Roman', Times, serif;
+    color: #060101;
+    height: 100vh;
+    background: url(/images/clouds3.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.brand-statement {
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 0%;
+    background-color: rgba(34, 36, 44, 0.7);
+    color: white           
+}
+
+.connect {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    margin: 5%;
+    background-image: url(/images/profilePicture.JPG);
+    background-size: cover;
+    border: 1px solid white;
+    border-radius: 5%;
+}

@@ -1,0 +1,138 @@
+body {
+    font-size: 1.5em;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family:'Times New Roman', Times, serif;
+    color: #060101;
+    height: 100vh;
+    background: url(/images/clouds3.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+html {
+    height: 100vh;
+}
+
+.homepage {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(4, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+height: 100%;
+}
+
+.nameTitle-aboutme {
+    grid-area: 1 / 1 / 2 / 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name-and-title {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+
+.name-and-title:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.profile-container {
+    grid-area: 2 / 4 / 3 / 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    height: 200px;
+    width: 200px;
+    background-image: url(/images/profilePicture.JPG);
+    background-size: cover;
+    position: absolute;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 5%;
+}
+
+.work-container {
+    grid-area: 2 / 1 / 3 / 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    width: 300px;
+    background-color: rgba(44, 53, 64, 0.5);
+}
+
+.work:hover {
+    cursor: pointer;
+    background-color: rgba(139, 186, 239, 0.1);
+
+}
+
+.about-me-container {
+    grid-area: 3 / 1 / 4 / 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    width: 300px;
+    background-color: rgba(44, 53, 64, 0.5);
+}
+
+.about-me:hover {
+    cursor: pointer;
+    background-color: rgba(139, 186, 239, 0.1); 
+}
+
+.resume-container {
+    grid-area: 4 / 1 / 5 / 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    width: 300px;
+    background-color: rgba(44, 53, 64, 0.5);
+}
+
+.resume:hover {
+    cursor: pointer;
+    background-color: rgba(139, 186, 239, 0.1); 
+}
+
+a{
+    color: #060101;
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+}
